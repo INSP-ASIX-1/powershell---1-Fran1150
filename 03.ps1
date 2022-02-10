@@ -1,2 +1,3 @@
 #Crea la carpeta myTest des de PowerShell, al mateix lloc on et trobes
-New-Item "C:\Users\argo\Desktop\coso\myTest" -itemType Directory
+cd . /coso/
+New-Item myTest -Type Directory
